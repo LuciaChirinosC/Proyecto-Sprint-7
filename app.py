@@ -20,6 +20,7 @@ if hist_button:
         fig =px.histogram(df, x="model_year", color="condition", title="Distribucion de condition vs. model_year")
         st.plotly_chart(fig, use_container_width=True)
 
+
 #Crear grafico de dispersion : price vs. model_year
 disp_button=st.button("Construir gráfico de dispersión para comparar price vs. model_year")
 if disp_button:
