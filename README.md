@@ -1,20 +1,24 @@
-# Proyecto-Sprint-7
 # Análisis de Vehículos con Streamlit
 
-Este proyecto es una aplicación web interactiva construida con **Streamlit**. Permite cargar un conjunto de datos sobre vehículos y realizar análisis exploratorios visuales utilizando gráficos interactivos de **Plotly**.
+Este proyecto es una **aplicación web interactiva** hecha con **Streamlit**. Permite cargar un conjunto de datos sobre vehículos y ver diferentes gráficos para analizar la información de los vehículos.
 
-## Funcionalidades
+## Funciones
 
-- **Carga de datos**: Los datos de vehículos se cargan desde un archivo CSV y se muestran en una tabla interactiva.
-- **Visualización de datos**: El usuario puede generar un histograma interactivo que muestra la distribución de los precios de los vehículos.
-- **Interactividad**: La aplicación permite al usuario hacer clic en un botón para visualizar el histograma.
+- **Cargar los datos**: Se cargan los datos de vehículos desde un archivo CSV y se muestran en una tabla.
+- **Ver gráficos**:
+  - Un histograma para ver la distribución de los vehículos según su condición y el año del modelo.
+  - Un gráfico de dispersión que muestra la relación entre el precio de los vehículos y su año de fabricación.
+- **Interactividad**: Puedes hacer clic en botones para ver los gráficos.
 
 ## Requisitos
 
-- **Python**
-- **Streamlit**
-- **Pandas**
-- **Plotly**
+Necesitas instalar las siguientes librerías para usar la aplicación:
 
-> **Nota**: Asegúrate de tener el archivo `vehicles_us.csv` en la carpeta `Data` dentro del proyecto.
+- Python
+- Streamlit
+- Pandas
+- Plotly
 
+## Estructura del Proyecto
+
+Asegúrate de tener el archivo **`vehicles_us.csv`** dentro de la carpeta **`Data/`** en tu proyecto.
